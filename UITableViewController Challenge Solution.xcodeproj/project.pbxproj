@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE55B66A1AA092BE002AF522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B6691AA092BE002AF522 /* main.m */; };
-		CE55B66D1AA092BE002AF522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B66C1AA092BE002AF522 /* AppDelegate.m */; };
-		CE55B6701AA092BE002AF522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B66F1AA092BE002AF522 /* ViewController.m */; };
+		CE55B66D1AA092BE002AF522 /* FFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B66C1AA092BE002AF522 /* FFAppDelegate.m */; };
+		CE55B6701AA092BE002AF522 /* FFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55B66F1AA092BE002AF522 /* FFViewController.m */; };
 		CE55B6731AA092BE002AF522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55B6711AA092BE002AF522 /* Main.storyboard */; };
 		CE55B6751AA092BE002AF522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE55B6741AA092BE002AF522 /* Images.xcassets */; };
 		CE55B6781AA092BE002AF522 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE55B6761AA092BE002AF522 /* LaunchScreen.xib */; };
@@ -30,10 +30,10 @@
 		CE55B6641AA092BE002AF522 /* UITableViewController Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55B6681AA092BE002AF522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE55B6691AA092BE002AF522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE55B66B1AA092BE002AF522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE55B66C1AA092BE002AF522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE55B66E1AA092BE002AF522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE55B66F1AA092BE002AF522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE55B66B1AA092BE002AF522 /* FFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFAppDelegate.h; sourceTree = "<group>"; };
+		CE55B66C1AA092BE002AF522 /* FFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFAppDelegate.m; sourceTree = "<group>"; };
+		CE55B66E1AA092BE002AF522 /* FFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFViewController.h; sourceTree = "<group>"; };
+		CE55B66F1AA092BE002AF522 /* FFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFViewController.m; sourceTree = "<group>"; };
 		CE55B6721AA092BE002AF522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE55B6741AA092BE002AF522 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE55B6771AA092BE002AF522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		CE55B6661AA092BE002AF522 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				CE55B66B1AA092BE002AF522 /* AppDelegate.h */,
-				CE55B66C1AA092BE002AF522 /* AppDelegate.m */,
-				CE55B66E1AA092BE002AF522 /* ViewController.h */,
-				CE55B66F1AA092BE002AF522 /* ViewController.m */,
+				CE55B66B1AA092BE002AF522 /* FFAppDelegate.h */,
+				CE55B66C1AA092BE002AF522 /* FFAppDelegate.m */,
+				CE55B66E1AA092BE002AF522 /* FFViewController.h */,
+				CE55B66F1AA092BE002AF522 /* FFViewController.m */,
 				CE55B6711AA092BE002AF522 /* Main.storyboard */,
 				CE55B6741AA092BE002AF522 /* Images.xcassets */,
 				CE55B6761AA092BE002AF522 /* LaunchScreen.xib */,
@@ -163,6 +163,7 @@
 		CE55B65C1AA092BE002AF522 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FF;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = FisFej;
 				TargetAttributes = {
@@ -219,8 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE55B6701AA092BE002AF522 /* ViewController.m in Sources */,
-				CE55B66D1AA092BE002AF522 /* AppDelegate.m in Sources */,
+				CE55B6701AA092BE002AF522 /* FFViewController.m in Sources */,
+				CE55B66D1AA092BE002AF522 /* FFAppDelegate.m in Sources */,
 				CE55B66A1AA092BE002AF522 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

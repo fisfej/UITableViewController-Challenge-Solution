@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 FisFej. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FFViewController.h"
 
-@interface ViewController ()
+@interface FFViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FFViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

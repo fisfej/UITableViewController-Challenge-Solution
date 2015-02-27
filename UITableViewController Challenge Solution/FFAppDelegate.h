@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FFAppDelegate.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Fisnik Fejzullahu on 2/27/15.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FFAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
